@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="285.0" prefWidth="237.0" spacing="20.0" styleClass="VBox" stylesheets="@newCascadeStyleSheet.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenproject3.PrimaryController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="GIAO DIEN CHO THAY" />
+      <Button fx:id="primaryButton" onAction="#quanLy" styleClass="Btn" text="Quan ly cau hoi" />
+      <Button fx:id="primaryButton1" onAction="#luyenTap" styleClass="Btn" text="Luyen tap" />
+      <Button fx:id="primaryButton2" onAction="#thi" styleClass="Btn" text="Thi" />
+      <ComboBox prefWidth="150.0" promptText="toi" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
